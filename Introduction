@@ -26,7 +26,8 @@ end
 pixel content array @reso
 power {photon}
 space {pos}
-mari P -> photon in array @pos
+mari P -> photon in array 
+rele pos photon
 end
 
 PRO HELLOWORLD;THIS IS AN EXECUTE PARAGRAPH, USE 'EXEC' IN THE TERMINAL TO EXECUTE IT, AS IN HYMMNOS.
