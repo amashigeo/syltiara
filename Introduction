@@ -1,0 +1,34 @@
+;Syltiaria acts more like a natural language. It has flexible expression and loose grammar. It is used to control magical machineries and weave complex functions.
+;The base of Syltiaria is simple. The magical machinery controls a body, or part of a body to move to a specific place, or let it have a velocity or acceleration with the magic force/power.
+;The magic power is a general name, corresponding to all kinds of powers in real life. All material with chemical and mass power possess 'magic power'. People use the magic power just as what we do.
+;The realization of this language is not yet considered. This sample provides some simple applications.
+;The samples focus on the grammar/logic. The vocabulary might be replaced in updates.
+
+;this is a function and can be called easily or the language must be impractical.
+;chinese characteristics will be avoided to be used in function names, despite that they are actually available. However, pinyin might appear in the function names.
+;Functions are wroten and stored in the machine memories and do not need to be \utaed.
+FUNCTION luming (P, {λ,}, S, {Shape}) ; the function is used to emit light. the parameters are selectable.
+;P is the power, {λ,} specify the wavelength(s) of the light. S is the emission solid angle. Shape controls the shape of light source in a limited range.
+if unset (P=1 λ=ALL S=4pi Shape=point) end
+pos terminal; the terminal can be a wand or an I/O interface of a machine.
+mari P -> photon @ λ ; transfer mari power to light energy
+rele pos photon
+END
+
+function mise(pos, P, {λ,}, content, reso) ; to show words or pictures to other people. This is in fact very complex and too difficult for me. It works as 'print' in the novel.
+if unset (pos=0 P=0.1 λ=ALL) end
+if set λ
+for content(0) to content(-1)
+if content(now)=word content(now)=content(now) with λ end
+end
+end
+pixel content array @reso
+mari P -> photon in array @pos
+end
+
+PRO HELLOWORLD;THIS IS AN EXECUTE PARAGRAPH, USE 'EXEC' IN THE TERMINAL TO EXECUTE IT, AS IN HYMMNOS.
+mise 'HELLOWORLD'
+END
+
+;an execute statement in terminal
+exec HELLOWORLD
