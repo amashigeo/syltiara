@@ -1,12 +1,15 @@
-;vocabulary in Syltiaria
+;vocabulary of Syltiaria
 ;iterating. if a disagreement happens, use this file as a standard.
 
+
+don = move 移动
+cibar = scar 疤
+codosui = disinfectant 消毒水
 renia = human 人类
-syacho = wound 伤口
+sincho = synthesize 合成
 sui =water 水
 suiu =water mist 水雾
-don = move 移动
+syacho = wound 伤口
 tammo = terminal 终端
-sincho = synthesize 合成
-codosui = disinfectant 消毒水
-cibar = scar 疤
+
+
