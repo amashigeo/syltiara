@@ -1,0 +1,11 @@
+; it can be real-time \utaed item by item in terminal with the changing condition or \execed in a same condition.
+
+;assume the object is named 'ann' and her arm is slightly broken
+
+renia {ann} ;human
+opt recog ann.mig_bico ;right arm
+opt find syacho @ann.mig_bico syacho
+store.sui -> suiu (ρ=0.2);water to mist
+don suiu tanmo syacho (v=0.5 f=0.2 t=20) ;clean the hurt, mist from terminal to wound
+exec sincho renia_codosui don syacho ; put harmless disinfectant
+exec sincho renia_cibar don syacho ;put alternative of scar 
