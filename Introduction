@@ -11,6 +11,7 @@ FUNCTION luming (P, {λ,}, S, {Shape}) ; the function is used to emit light. the
 ;P is the power, {λ,} specify the wavelength(s) of the light. S is the emission solid angle. Shape controls the shape of light source in a limited range.
 if unset (P=1 λ=ALL S=4pi Shape=point) end
 pos terminal; the terminal can be a wand or an I/O interface of a machine.
+power {photon}
 mari P -> photon @ λ ; transfer mari power to light energy
 rele pos photon
 END
@@ -23,6 +24,8 @@ if content(now)=word content(now)=content(now) with λ end
 end
 end
 pixel content array @reso
+power {photon}
+space {pos}
 mari P -> photon in array @pos
 end
 
