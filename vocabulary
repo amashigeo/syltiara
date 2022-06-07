@@ -1,16 +1,20 @@
 ;vocabulary of Syltiaria
 ;iterating. if a disagreement happens, use this file as a standard.
+;English is also usable in programs to improve readability
 
 
-
+a = at (@) 指定位置
 cibar = scar 疤
 codosui = disinfectant 消毒水
 don = move 移动
+io = -> 转换为
+keas = execute 执行
+meson = function 函数/功能
 renia = human 人类
 sincho = synthesize 合成
-sui =water 水
-suiu =water mist 水雾
+sui = water 水
+suiu = water mist 水雾
 syacho = wound 伤口
 tammo = terminal 终端
-
+ten = global 指定全局变量/部分全局变量
 
