@@ -1,4 +1,5 @@
-;Syltiaria acts more like a natural language (✖). It has flexible expression and loose grammar. It is used to control magical machineries and weave complex functions.
+;Syltiaria acts more like a natural language. It has flexible expression and loose grammar. It is used to control magical machineries and weave complex functions.
+;All parts of Syltiaria should be easy to read, therefore the symbols are to be removed. However, in programming the symbols are selectable to improve code readability.
 ;The base of Syltiaria is simple. The magical machinery controls a body, or part of a body to move to a specific place, or let it have a velocity or acceleration with the magic force/power.
 ;The magic power is a general name, corresponding to all kinds of powers in real life. All material with chemical and mass power possess 'magic power'. People use the magic power just as what we do.
 ;The realization of this language is not yet considered. This sample provides some simple applications.
@@ -10,11 +11,17 @@
 FUNCTION luming (P, {λ,}, S, {Shape}) ; the function is used to emit light. the parameters are selectable.
 ;P is the power, {λ,} specify the wavelength(s) of the light. S is the emission solid angle. Shape controls the shape of light source in a limited range.
 if unset (P=1 λ=ALL S=4pi Shape=point) end
-pos terminal; the terminal can be a wand or an I/O interface of a machine.
-power {photon}
+terminal pos; the terminal can be a wand or an I/O interface of a machine.
 mari P -> photon @ λ ; transfer mari power to light energy
 rele pos photon
 END
+
+;code in Syltiaria style:
+meson luming P lam S Sinzo
+ro malse P de 1 lam de CHON S de 4pi Sinzo de tin
+tammo izu
+mari P io goun
+selib izu goun e
 
 function mise(pos, P, {λ,}, content, reso) ; to show words or pictures to other people. This is in fact very complex and too difficult for me. It works as 'print' in the novel.
 if unset (pos=0 P=0.1 λ=ALL) end
@@ -23,16 +30,35 @@ for content(0) to content(-1)
 if content(now)=word content(now)=content(now) with λ end
 end
 end
-pixel content array @reso
-power {photon}
+pixel content array1 @reso
 space {pos}
-mari P -> photon in array 
+mari P -> photon in array1 
 rele pos photon
 end
+
+;code in Syltiaria style:
+meson mise izu P lam neavo cizovio
+ro malse izu de 0 P de 0.1 lam de CHON e
+ro se lam
+zia neavo 0 do neavo -1
+ro neavo nao de vorj
+neavo nao de neavo nao hon lam e e e
+shaso neavo jabelo1 a cizovio
+korco izu
+mari P io goun i jabelo1
+selib izu goun e
+
 
 PRO HELLOWORLD;THIS IS AN EXECUTE PARAGRAPH, USE 'EXEC' IN THE TERMINAL TO EXECUTE IT, AS IN HYMMNOS.
 mise 'HELLOWORLD'
 END
 
+;code in Syltiaria style:
+fioph HELLOWORLD
+mise 'HELLOWORLD' e
+
 ;an execute statement in terminal
 exec HELLOWORLD
+
+;code in Syltiaria style:
+keas HELLOWORLD
