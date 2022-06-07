@@ -1,6 +1,6 @@
 ;vocabulary of Syltiaria
 ;iterating. if a disagreement happens, use this file as a standard.
-;English is also usable in programs to improve readability
+;English like "function/global/terminal/execute" etc are also usable in programs to improve readability
 
 
 a = at (@) 指定位置
