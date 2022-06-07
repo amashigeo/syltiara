@@ -3,21 +3,54 @@
 ;English like "function/global/terminal/execute" etc are also usable in programs to improve readability
 
 
+Identifier vocabulary to be use in compiler/interpreter
 a = at (@) 指定位置
+de = = 等于
+do = to 到
+chon = all 全部
+e = end 表示一个功能区块结束
+fioph = method/project 方法、项目
+hon = with 和，与
+i = in 以
+io = -> 转换为
+izu = position 位置
+keas = execute 执行
+malse = unsetted 缺省
+meson = function 函数/功能
+ro = if 若
+se = setted 设置
+selib = release 释放
+tammo = terminal 终端
+teisher = object 对象
+ten = global 指定全局变量/部分全局变量
+zia = for 用于for循环
+
+Physical objects:
+goun = light/photon 光、光子
+jabelo = array 数组
+korco = space 空间
+mari = magic power 魔力
+nao = now 现在
+nolia = power/energy 能量
+shaso = pixel 像素
+tin = point 点
+vorj = word 文字
+
+
+Vocabulary to be used as variables/class/libs
 cibar = scar 疤
+cizovio = resolution 分辨率
 codosui = disinfectant 消毒水
 don = move 移动
-e = end 表示一个功能区块结束
-io = -> 转换为
-keas = execute 执行
-meson = function 函数/功能
+luming = light (verb) 发光
+neavo = content 内容
 renia = human 人类
 sincho = synthesize 合成
+sinzo = shape 形状
 sui = water 水
 suiu = water mist 水雾
 syacho = wound 伤口
 
-tammo = terminal 终端
-teisher = object 对象
-ten = global 指定全局变量/部分全局变量
 
+
+Vocabulary borrowed from Hymmnos and other languages as peoples' names
