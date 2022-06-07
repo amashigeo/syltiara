@@ -3,7 +3,7 @@
 ;The base of Syltiaria is simple. The magical machinery controls a body, or part of a body to move to a specific place, or let it have a velocity or acceleration with the magic force/power.
 ;The magic power is a general name, corresponding to all kinds of powers in real life. All material with chemical and mass power possess 'magic power'. People use the magic power just as what we do.
 ;The realization of this language is not yet considered. This sample provides some simple applications.
-;The samples focus on the grammar/logic. The vocabulary might be replaced in updates.
+
 
 ;this is a function and can be called easily or the language must be impractical.
 ;chinese characteristics will be avoided to be used in function names, despite that they are actually available. However, pinyin might appear in the function names.
